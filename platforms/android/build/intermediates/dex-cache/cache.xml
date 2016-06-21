@@ -2,6 +2,13 @@
 <items version="2" >
 
     <item
+        jar="/home/vuelogix2/hrmanagmentapp/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/release/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="de654851b9c624cce4f970650b3acbeee5eb27de">
+        <dex dex="/home/vuelogix2/hrmanagmentapp/platforms/android/build/intermediates/pre-dexed/release/CordovaLib-unspecified-release_07ab847ee4eed8049bce09e129421f341a3da3ee.jar" />
+    </item>
+    <item
         jar="/home/vuelogix2/hrmanagmentapp/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/debug/jars/classes.jar"
         jumboMode="false"
         revision="24.0.0"
