@@ -1,0 +1,20 @@
+<view title="Log in">
+  <ion-content>
+      <div class="text-center">
+        <h4 class="title">Login</h4>
+      </div>
+    <form ng-submit="doLogin()" name="loginform">
+      <div class="list list-inset">
+        <label class="item item-input">
+          <input type="text" ng-model="loginData.username" placeholder="User name" name="username" required="true">
+        </label>
+        <label class="item item-input">
+          <input type="password" ng-model="loginData.password" placeholder="Pass word" name="passwd" required="true">
+        </label>
+        <label class="item">
+          <button class="button button-block button-dark" type="submit">Log in</button>
+        </label>
+      </div>
+    </form>
+  </ion-content>
+</view>
