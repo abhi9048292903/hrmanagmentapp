@@ -4,7 +4,6 @@ angular.module('hrapp.controllers', [])
 
   $scope.loginData = {};
 
-
   // Perform the login action when the user submits the login form
   $scope.doLogin = function() {
     console.log('Doing login', $scope.loginData);
@@ -21,7 +20,7 @@ angular.module('hrapp.controllers', [])
   };
 })
 
-.controller('EmployeelistsCtrl', function($scope,EmployeeService) {
+.controller('EmployeelistsCtrl', function($scope,EmployeeService, $ionicPlatform) {
   var getAllEmployees = function() {
           EmployeeService.getAll().then(function (employees) {
               $scope.employees = employees;
@@ -29,6 +28,10 @@ angular.module('hrapp.controllers', [])
       }
 
       getAllEmployees();
+
+      $ionicPlatform.onHardwareBackButton(function(){
+        e.stopPropagation();
+      })
 })
 
 .controller('EmployeeDetailsCtrl', function($scope, $stateParams,EmployeeService) {
