@@ -1,0 +1,25 @@
+/* Empty. Add your own CSS if you like */
+.list-edit{
+  top:44px;
+}
+.error {
+  color:red;
+  float:right;
+  margin-right: 23px;
+  margin-left: 10px;
+  margin-top: 2px;
+}
+
+.col {
+  border: solid 1px #808080;
+  border-bottom-style: none;
+  border-right-style: none;
+}
+
+.col:last-child {
+  border-right: solid 1px #808080;
+}
+
+.row:last-child .col {
+  border-bottom: solid 1px #808080;
+}

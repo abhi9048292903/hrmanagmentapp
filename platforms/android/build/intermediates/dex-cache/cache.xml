@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/vuelogix2/hrmanagmentapp/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/debug/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="28864ea655dae67b9ebd5769d8c5850db53a212e">
+        <dex dex="/home/vuelogix2/hrmanagmentapp/platforms/android/build/intermediates/pre-dexed/debug/CordovaLib-unspecified-debug_e3a098de9c6057efd20fbd9e9038a3e8d05e637c.jar" />
+    </item>
+
+</items>

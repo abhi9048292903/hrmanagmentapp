@@ -1,0 +1,67 @@
+<ion-view view-title="Employeedetails">
+  <ion-content>
+    <div class="card padding">
+    <div class="item item-thumbnail-left" type="item-text-wrap">
+          <img src="pics/{{employee.img }}" width="100" height="100"/>
+          <div class="padding">
+            <h2>{{ employee.passportname }}</h2>
+            <h4>{{ employee.designation }}<h4>
+            <p>{{ employee.department }}</p>
+        </div>
+    </div>
+    <div class="padding">
+      <h4><u>Personal Information</u></h4>
+      <div class="row">
+        <div class="col"><b>Passport Name</b>
+        </div>
+        <div class="col">{{employee.passportname}}
+        </div>
+      </div>
+      <div class="row">
+        <div class="col"><b>Gender</b>
+        </div>
+        <div class="col">{{employee.gender}}
+        </div>
+      </div>
+      <div class="row">
+        <div class="col"><b>DOB</b>
+        </div>
+        <div class="col">{{employee.dob}}
+        </div>
+      </div>
+      <div class="row">
+        <div class="col"><b>Nationality</b>
+        </div>
+        <div class="col">{{employee.nationality}}
+        </div>
+      </div>
+      <div class="row">
+        <div class="col"><b>Join Date</b>
+        </div>
+        <div class="col">{{employee.dojoin}}
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">Department
+        </div>
+        <div class="col">{{employee.department}}
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">Designation
+        </div>
+        <div class="col">{{employee.designation}}
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">Religion
+        </div>
+        <div class="col">{{employee.religion}}
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  </ion-content>
+</ion-view>
